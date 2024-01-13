@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require('cors');
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+app.use(cors({ origin: 'https://your-todo-your-reminder.netlify.app/', credentials: true }));
 
 const cookieParser = require("cookie-parser");
 
